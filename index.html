@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Xinya Liu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d93943834f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Project Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Xinya </span><br>Liu from Brisbane.</h1>
+            </div>
+        </div>
+    </div>
+    <!---------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h4>Hello, my name is Xinya, and I recently completed my Master of Technology in Software Engineering at Federation
+                    University Australia, graduating with a high GPA of 6.7 out of 7 and earning the Dean’s Commendation for Excellence
+                    Awards multiple times.</h4>
+                    <h4>During my time as a System Engineer at Luxottica Global Service, I gained hands-on experience working with SAP ERP
+                    systems, maintaining and improving system performance, and automating workflows using BMC Control-M. I provided
+                    technical support to global teams, troubleshooting issues and developing solutions to enhance system efficiency, which
+                    taught me how to apply creative solutions and work effectively within dynamic teams.</h4>
+                    <h4>In addition, I have hands-on experience building full-stack projects using the MERN stack. It is a personal project
+                    where I developed a complete eCommerce platform. In this project, I developed dynamic and responsive user interfaces
+                    with React, implemented server-side functionality using Node.js and Express, and managed databases with MongoDB.
+                    Additionally, I integrated payment solutions like PayPal to enable secure online transactions and utilized Redux for
+                    efficient state management across complex applications.</h4>
+                    <h4>As a proactive problem-solver, I’ve demonstrated strong communication skills. I thrive in fast-paced environments and am
+                    I am ready to take on new challenges and responsibilities in a graduate software developer role.
+                     </h4>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experiences</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack</span><br>React, MongoDB, Node. js, Bootstrap, Express, Redux Toolkit, JWT, HTML/CSS, Java, Python, SQL</li>
+                            <li><span>System Engineering</span><br>SAP ERP,
+                            BMC Control-M, AS400 Administration</li>
+                            
+                            <li><span>Soft Skills</span><br>Analytical Thinking, Fast Learning, Time Management, Communication</li>
+                        </ul>
+                    </div>
+
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019-Current</span><br> Self building projects?? </li>
+                            <li><span>2018-2019</span><br>Marketing Specialist at WaykiChain</li>
+                            <li><span>2016-2018</span><br>System Engineer at Luxottica</li>
+                        </ul>
+                    </div> -->
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 Federation University Australia</span><br>Master of Technology- Software Engineering (GPA: 6.7/ 7.0)<br>
+                            Award: Dean’s Commendation, Excellence Awards (2022& 2023 &2024)</li>
+                            <li><span>2016 Wuhan University of Technology</span><br>Bachelor of Arts- English</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------my work experience------------- -->
+
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Work Experience</h1>
+        <div class="services-list">
+            <div class="service-item">
+                <!-- <i class="fa-solid fa-briefcase"></i> -->
+                <h2>System Engineer at Luxottica Global Service Co. Ltd.</h2>
+                <h3>Luxottica Global Service Co., Ltd. is a division of Luxottica Group, specializing in
+                    developing and maintaining software systems to enhance integration and operational efficiency
+                    worldwide. The company provides essential technical support and innovative solutions.</h3>
+               
+               <br>     <ul class="experience-list">
+                    <li><strong>Monitored SAP system performance:</strong> Managed task execution according to
+                        predefined schedules, ensuring timely reporting to stakeholders.</li>
+                    <li><strong>Identified and resolved system issues:</strong> Proactively implemented solutions to
+                        enhance system availability and performance.</li>
+                    <li><strong>First-level technical troubleshooting:</strong> Performed checks and troubleshot using a
+                        knowledge base and personal expertise to ensure smooth operations.</li>
+                    <li><strong>Automated background jobs:</strong> Utilized Control-M for task scheduling and workflow
+                        efficiency improvements.</li>
+                    <li><strong>Provided technical support:</strong> Assisted global users with technical issues and
+                        requirements via email, phone, and conferences.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- ---------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project Experience</h1>
+        <div class="row">
+            <!-- Left section for project image -->
+            <div class="contact-left">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work.png" alt="Project Image">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>Beauty Shop is a comprehensive eCommerce platform designed to provide a seamless and
+                                engaging shopping experience for beauty products using the MERN stack along with Redux
+                                Toolkit.</p>
+                            <a href="https://www.beautystore.party/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right section for project details -->
+            <div class="contact-right">
+                <h2>Beauty Store | React, MongoDB, Node.js, Bootstrap, Express, Redux Toolkit, JWT</h2>
+                <p><strong>Full-Stack Developer (Personal Project)</strong> - Brisbane, Oct 2024</p>
+                <p>Beauty Shop is a comprehensive eCommerce platform designed to provide a seamless and engaging
+                    shopping experience for beauty products using the MERN stack along with Redux Toolkit.</p>
+                <ul>
+                    <li><strong>Responsive UI Design:</strong> Designed and implemented a responsive user interface
+                        using React and Bootstrap, featuring a shopping cart, product reviews, search, and pagination
+                        functionalities.</li>
+                    <li><strong>Server-Side Development:</strong> Built server-side functionalities using Node.js and
+                        Express.js, and managed the MongoDB database with Mongoose.</li>
+                    <li><strong>State Management:</strong> Utilized Redux Toolkit for efficient global state management
+                        throughout the application.</li>
+                    <li><strong>Secure Authentication:</strong> Implemented secure JWT authentication and integrated the
+                        PayPal API for seamless payment processing.</li>
+                    <li><strong>Admin Interfaces:</strong> Developed interfaces for product management, user management,
+                        and order management to streamline administrative tasks.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                
+       
+    <!-- -------------------contact-------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>susanna0liu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0438407598</p>
+                    <p><i class="fa-solid fa-location"></i>Brisbane</p>
+                    <div class="social-icons">
+                        
+                        <a href="https://github.com/xinya0liu"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/xinya-liu-740760121/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/SDE_Resume_Xinya.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+                <div class="copyright">
+                    <p>Copyright @ Xinya</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+
+</html>
