@@ -330,7 +330,7 @@ nav ul li a:hover::after {
     background-color: #7d4177;
 }
 
-..contact-right form {
+.contact-right form {
     width: 100%;
 }
 
